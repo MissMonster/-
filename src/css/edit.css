@@ -1,0 +1,170 @@
+.bg{
+    min-width: 300px;
+    width: 100%;
+    background: url('../img/bj.png') no-repeat;
+    background-size:100% 100%;
+    position: fixed;;
+    top: 0;
+    bottom: 0;
+    border: #3d98ff solid 1px;
+}
+.headerAdd{
+    width: 100%;
+    height: 40px;
+    background-color: rgb(6, 33, 70,0);
+    color: #fff;
+    line-height: 40px;
+    position: relative;
+}
+.back{
+    height: 100%;
+    width: 80px;
+    line-height: 40px;
+    position: absolute;
+    top: 0;
+    left: 10px;
+}
+.spanBack{
+    display: inline-block;
+    height: 32px;
+    width: 20px;
+    background: url('../img/fanhui.png') no-repeat -5px center;
+    background-size: 28px 26px;
+    margin-top: 4px;
+    margin-right: 4px;
+}
+.aBack{
+   text-decoration: none;
+    color: #fff;
+    font-weight: normal;
+    vertical-align: top;
+}
+.title{
+    text-align: center;
+    font-size: 16px;
+    font-weight:700;
+    flex: 1;
+}
+
+.sectionAdd{
+    width: 100%;
+    margin-top: 20px;
+}
+.inputBox{
+    margin:0 10px 10px 10px;
+    position: relative;
+    border-bottom: 1px solid #3d98ff;
+}
+.spanI{
+    display:inline-block;
+    height: 40px;
+    width: 40px;
+    background: url('../img/changyongtubiao-mianxing-.png') no-repeat center center;
+    background-size:24px 24px;
+    position: absolute;
+    top:4px;
+    right:7px;
+}
+.inputAdd{
+    margin: 0;
+    padding:0;
+    width: 100%;
+    height: 50px;
+    font-size: 16px !important;
+    border: 0;
+    padding-left: 110px !important;
+    outline: 0;
+    box-sizing: border-box;
+    color: #3d98ff;
+    background-color: rgba(16, 94, 208, 0.3) !important;
+}
+.labelAdd{
+    position: absolute;
+    top: 13px;
+    left: 6px;
+    color: #fff;
+}
+.photoBox{
+    height: 255px;
+    border-bottom: 0 !important;
+    background: url('../img/ai-camera.png') no-repeat center center;
+    background-size: 100px 100px;
+    background-color: rgba(16, 94, 208, 0.3);
+    position: relative;
+    overflow: hidden;
+}
+.fileIput{
+    height: 255px;
+    outline: none;
+    background-color: transparent;
+    filter:alpha(opacity=0);
+    -moz-opacity:0;
+    -khtml-opacity: 0;
+    opacity: 0;
+}
+.photoBoxBig{
+    height: 255px;
+    margin:0 10px 10px 10px;
+    position: relative;
+}
+.closePh{
+    display: inline-block;
+    width: 48px;
+    height: 48px;
+    background: url('../img/close.png') no-repeat center center;
+    background-size: 30px 30px;
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    z-index: 9999999;
+}
+
+.footerAdd{
+    width: 100%;
+    height: 54px;
+    margin-top: 12px;
+    z-index: 99999;
+}
+.addBox{
+    padding: 0 15px 0 15px;
+    height: 54px;
+    margin-top: 16px;
+} 
+.inputbc{
+    width: 100%;
+    height: 100%;
+    color: #fff !important;
+    font-size: 18px;
+    text-align: center;
+     border:0 !important;
+     outline: 0;
+    background: url('../img/u7.png') no-repeat;
+    background-size: 100% 100%;
+    background-color: rgba(0, 0, 0, 0) !important;
+}
+.inputbcls{
+    width: 100%;
+    height: 100%;
+    color: #fff !important;
+    font-size: 18px;
+    text-align: center;
+     border:0 !important;
+     outline: 0;
+    background: url('../img/u8.png') no-repeat;
+    background-size:100% 104%;
+    background-color: rgba(0, 0, 0, 0) !important;
+}
+
+@media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 2dppx){
+    .am-button{
+        display: none !important;
+        border: 0 !important;
+        background: none !important;
+    }
+}
+
+@media (max-width: 340px) { 
+    .photoBox{
+        height: 130px;
+    }
+}
